@@ -1,0 +1,12 @@
+This tool is designed to help Accenture's strategy consultants identify emerging market trends and opportunities using natural language processing on news articles and simulated social media data. The analyzer performs the following key functions:
+
+Data Collection: It fetches real news articles related to a given keyword from Google News RSS feed and generates simulated tweet data.
+Sentiment Analysis: It calculates the overall sentiment of the collected texts, providing insights into market perception.
+Topic Extraction: Using TF-IDF (Term Frequency-Inverse Document Frequency) vectorization, it identifies the most prominent topics discussed in relation to the keyword.
+Trend Visualization: It generates a word cloud to visually represent the most frequent terms and plots a sentiment trend over time.
+Geographical Analysis: It provides a distribution of mentions across different locations (based on simulated data).
+Influencer Identification: It lists key influencers based on their follower count (using simulated data).
+
+The tool is implemented in Python, utilizing libraries such as requests for web scraping, TextBlob for sentiment analysis, scikit-learn for topic extraction, and matplotlib and WordCloud for visualizations.
+This analyzer offers a starting point for understanding market dynamics, public perception, and key discussion points around a specific topic or brand. While it currently uses simulated social media data, it can be adapted to use real Twitter data with proper API integration for more accurate insights in a production environment.
+The tool's modular design allows for easy expansion and customization, making it adaptable to Accenture's specific needs in various market analysis scenarios.
